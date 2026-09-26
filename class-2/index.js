@@ -1,12 +1,15 @@
-function isLeagal(age){
-
-    if (age >= 18) {
-        console.log("yes u r allowed")
+function isColor(color) {
+    if (color == "red") {
+        console.log("please stop there");
+    } else {
+        console.log("you can go ahead");
     }
-
-    else{
-        console.log("nope, sorry to see u go!")
-    }
+    // if (age >= 18) {
+    //     console.log("yes u r allowed")
+    // }
+    // else{
+    //     console.log("nope, sorry to see u go!")
+    // }
 }
 
-isLeagal(4)
+isColor("red"); // Output: please stop there
