@@ -16,9 +16,9 @@ function addTodo() {
     
     todoDiv.appendChild(todoSpan)
 
-    // const todoButton = document.createElement("button")
-    // todoButton.innerHTML = " Delete Todo"
-    // todoButton.setAttribute("onclick" , "deleteTodo(" + todoIndex + ")")
+    const todoButton = document.createElement("button")
+    todoButton.innerHTML = " Delete Todo"
+    todoButton.setAttribute("onclick" , "deleteTodo(" + todoIndex + ")")
 
     todoDiv.appendChild(todoButton)
 
