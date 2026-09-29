@@ -1,15 +1,9 @@
-function isColor(color) {
-    // if (color == "red") {
-    //     console.log("please stop there");
-    // } else {
-    //     console.log("you can go ahead");
-    // }
+function isAge(age) {
     if (age >= 18) {
-        console.log("yes u r allowed")
-    }
-    else{
-        console.log("nope, sorry to see u go!")
+        console.log("yes u r allowed");
+    } else {
+        console.log("nope, sorry to see u go!");
     }
 }
 
-isColor("red"); // Output: please stop there
+isAge(20);
