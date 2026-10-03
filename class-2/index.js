@@ -1,12 +1,19 @@
-function isLeagal(age){
+// function isAge(age) {
+//     if (age >= 18) {
+//         console.log("yes u r allowed");
+//     } else {
+//         console.log("nope, sorry to see u go!");
+//     }
+// }
 
-    if (age >= 18) {
-        console.log("yes u r allowed")
-    }
+// isAge(20);
 
-    else{
-        console.log("nope, sorry to see u go!")
+function checkTemperature(temp) {
+    if (temp >= 30) {
+        console.log("It's hot outside!");
+    } else {
+        console.log("The weather is nice!");
     }
 }
 
-isLeagal(4)
+checkTemperature(35);
